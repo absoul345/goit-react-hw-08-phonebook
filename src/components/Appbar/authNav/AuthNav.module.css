@@ -1,0 +1,18 @@
+.authLink {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(14, 116, 212);
+}
+
+.authLink:not(:last-child) {
+  margin-right: 15px;
+}
+
+.authLinkActive {
+  color: rgb(197, 31, 19);
+}
+
+.container {
+  margin-right: 50px;
+}

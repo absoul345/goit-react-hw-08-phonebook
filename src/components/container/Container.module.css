@@ -1,0 +1,34 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+ol,
+ul,
+li,
+section,
+article,
+main,
+nav,
+header,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: rgb(113, 224, 169);
+}

@@ -1,0 +1,23 @@
+.userContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.userAvatar {
+  margin-right: 10px;
+}
+
+.loginText {
+  color: rgb(44, 44, 221);
+  margin-right: 10px;
+}
+
+.userLogoutBtn {
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  color: white;
+  background-color: red;
+  border-radius: 10%;
+}

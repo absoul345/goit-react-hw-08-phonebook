@@ -1,0 +1,23 @@
+.navList {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navItem {
+  font-size: 25px;
+  font-weight: 700;
+  list-style: none;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 15px;
+}
+
+.navLink {
+  color: rgb(14, 116, 212);
+  text-decoration: none;
+}
+
+.navItemActive {
+  color: rgb(197, 31, 19);
+}
