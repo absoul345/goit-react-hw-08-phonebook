@@ -21,12 +21,11 @@ export default function LoginPage() {
     e => {
       e.preventDefault();
       dispatch(authOperations.logIn({ email, password }));
-      reset();
+      setEmail('');
+      setPassword('');
     },
     [dispatch, email, password],
   );
-
-  const reset = () => setEmail('') || setPassword('');
 
   return (
     <>

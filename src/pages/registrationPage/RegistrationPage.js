@@ -26,12 +26,11 @@ export default function RegistrationPage() {
     e => {
       e.preventDefault();
       dispatch(authOperations.register({ name, email, password }));
-      reset();
+      setPassword('');
+      setEmail('');
     },
     [dispatch, email, name, password],
   );
-
-  const reset = () => setEmail('') || setPassword('');
 
   return (
     <>

@@ -36,12 +36,11 @@ export default function AddContacts() {
         );
       }
       dispatch(phoneBookOperations.addContacts(name, number));
-      reset();
+      setName('');
+      setNumber('');
     },
     [contacts, dispatch, name, number],
   );
-
-  const reset = () => setName('') || setNumber('');
 
   return (
     <div className={styles.container}>
